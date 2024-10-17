@@ -1,11 +1,15 @@
+"""
+Module defining functions to train and test model.Model.
+
+Source: https://github.com/pytorch/examples/blob/main/mnist/main.py
+"""
+
 import argparse
 from typing import List
 import torch
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
 from model import Model
-
-"""Source: https://github.com/pytorch/examples/blob/main/mnist/main.py"""
 
 
 def train(

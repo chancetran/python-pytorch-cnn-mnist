@@ -1,6 +1,10 @@
-import torch
+"""
+Module defining Model torch.nn.Module class.
 
-"""Source: https://github.com/pytorch/examples/blob/main/mnist/main.py"""
+Source: https://github.com/pytorch/examples/blob/main/mnist/main.py
+"""
+
+import torch
 
 
 class Model(torch.nn.Module):
